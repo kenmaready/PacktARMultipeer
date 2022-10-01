@@ -13,6 +13,8 @@
 		9B9F32C528E48395002641C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B9F32C328E48395002641C9 /* Main.storyboard */; };
 		9B9F32C728E48397002641C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B9F32C628E48397002641C9 /* Assets.xcassets */; };
 		9B9F32CA28E48397002641C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B9F32C828E48397002641C9 /* LaunchScreen.storyboard */; };
+		9B9F32D128E483B7002641C9 /* MultipeerSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9F32D028E483B7002641C9 /* MultipeerSession.swift */; };
+		9B9F32D328E48B5F002641C9 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9F32D228E48B5F002641C9 /* RoundedButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		9B9F32C428E48395002641C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9B9F32C628E48397002641C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B9F32C928E48397002641C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B9F32D028E483B7002641C9 /* MultipeerSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipeerSession.swift; sourceTree = "<group>"; };
+		9B9F32D228E48B5F002641C9 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,9 +59,11 @@
 		9B9F32BC28E48395002641C9 /* PacktARMultipeer */ = {
 			isa = PBXGroup;
 			children = (
+				9B9F32D228E48B5F002641C9 /* RoundedButton.swift */,
 				9B9F32BD28E48395002641C9 /* AppDelegate.swift */,
 				9B9F32BF28E48395002641C9 /* art.scnassets */,
 				9B9F32C128E48395002641C9 /* ViewController.swift */,
+				9B9F32D028E483B7002641C9 /* MultipeerSession.swift */,
 				9B9F32C328E48395002641C9 /* Main.storyboard */,
 				9B9F32C628E48397002641C9 /* Assets.xcassets */,
 				9B9F32C828E48397002641C9 /* LaunchScreen.storyboard */,
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B9F32D128E483B7002641C9 /* MultipeerSession.swift in Sources */,
 				9B9F32C228E48395002641C9 /* ViewController.swift in Sources */,
 				9B9F32BE28E48395002641C9 /* AppDelegate.swift in Sources */,
+				9B9F32D328E48B5F002641C9 /* RoundedButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
